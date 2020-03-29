@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class HowMuchClass {
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));//first
         while (true){
             System.out.println("Enter number between 1 and 100");
             int guessNumber = (int)(Math.random() * 100 + 1);
